@@ -1,15 +1,124 @@
+// @font-face {
+// 	font-family: 'Roboto', sans-serif;
+// 	src: url('fonts/Roboto-Regular.ttf') format('truetype'), url('fonts/Roboto-Regular.woff2') format('woff2');
+// 	font-style: normal;
+// 	font-weight: normal;
+// }
+
+// ;
+
+// @font-face {
+// 	font-family: 'Roboto', sans-serif;
+// 	src: url('fonts/Roboto-Bold.ttf') format('truetype'), url('fonts/Roboto-Bold.woff2') format('woff2');
+// 	font-style: normal;
+// 	font-weight: 700;
+// }
+//////////////////////
 @font-face {
-	font-family: 'Roboto', sans-serif;
-	src: url('fonts/Roboto-Regular.ttf') format('truetype'), url('fonts/Roboto-Regular.woff2') format('woff2');
+	font-family: 'SF Pro Display';
+	src: local('San Francisco Pro Display Black'),
+		local('San-Francisco-Pro-Display-Black'),
+		url('fonts/SFProDisplay-Black.woff2') format('woff2'),
+		url('fonts/SFProDisplay-Black.woff') format('woff'),
+		url('fonts/SFProDisplay-Black.ttf') format('truetype');
+	font-weight: 900;
 	font-style: normal;
-	font-weight: normal;
 }
 
 ;
 
 @font-face {
-	font-family: 'Roboto', sans-serif;
-	src: url('fonts/Roboto-Bold.ttf') format('truetype'), url('fonts/Roboto-Bold.woff2') format('woff2');
+	font-family: 'TT Hoves';
+	src: local('TT Hoves Regular'), local('TTHoves-Regular'),
+		url('fonts/TTHoves-Regular.woff2') format('woff2'),
+		url('fonts/TTHoves-Regular.woff') format('woff'),
+		url('fonts/TTHoves-Regular.ttf') format('truetype');
+	font-weight: normal;
 	font-style: normal;
-	font-weight: 700;
 }
+
+;
+
+@font-face {
+	font-family: 'TT Hoves';
+	src: local('TT Hoves Light'), local('TTHoves-Light'),
+		url('fonts/TTHoves-Light.woff2') format('woff2'),
+		url('fonts/TTHoves-Light.woff') format('woff'),
+		url('fonts/TTHoves-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+;
+
+@font-face {
+	font-family: 'TT Hoves';
+	src: local('TT Hoves Medium'), local('TTHoves-Medium'),
+		url('fonts/TTHoves-Medium.woff2') format('woff2'),
+		url('fonts/TTHoves-Medium.woff') format('woff'),
+		url('fonts/TTHoves-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+;
+
+@font-face {
+	font-family: 'TT Hoves';
+	src: local('TT Hoves Bold'), local('TTHoves-Bold'),
+		url('fonts/TTHoves-Bold.woff2') format('woff2'),
+		url('fonts/TTHoves-Bold.woff') format('woff'),
+		url('fonts/TTHoves-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+;
+
+//////////////////////////////
+
+// @font-face {
+// 	font-family: 'San Francisco Pro';
+// 	src: url('fonts/SFProDisplay-Black.woff2') format('woff2'),
+// 		url('fonts/SFProDisplay-Black.woff') format('woff'),
+// 		url('fonts/SFProDisplay-Black.ttf') format('truetype');
+// 	;
+// 	font-weight: 900;
+// 	font-style: normal;
+// }
+
+// @font-face {
+// 	font-family: 'TT Hoves';
+// 	src: url('fonts/TTHoves-Bold.woff2') format('woff2'),
+// 		url('fonts/TTHoves-Bold.woff') format('woff'),
+// 		url('fonts/TTHoves-Bold.ttf') format('truetype');
+// 	font-weight: 700;
+// 	font-style: normal;
+// }
+
+// @font-face {
+// 	font-family: 'TT Hoves';
+// 	src: url('fonts/TTHoves-Regular.woff2') format('woff2'),
+// 		url('fonts/TTHoves-Regular.woff') format('woff'),
+// 		url('fonts/TTHoves-Regular.ttf') format('truetype');
+// 	font-weight: normal;
+// 	font-style: normal;
+// }
+
+// @font-face {
+// 	font-family: 'TT Hoves';
+// 	src: url('fonts/TTHoves-Light.woff2') format('woff2'),
+// 		url('fonts/TTHoves-Light.woff') format('woff'),
+// 		url('fonts/TTHoves-Light.ttf') format('truetype');
+// 	font-weight: 300;
+// 	font-style: normal;
+// }
+
+// @font-face {
+// 	font-family: 'TT Hoves';
+// 	src: url('fonts/TTHoves-Medium.woff2') format('woff2'),
+// 		url('fonts/TTHoves-Medium.woff') format('woff'),
+// 		url('fonts/TTHoves-Medium.ttf') format('truetype');
+// 	font-weight: 500;
+// 	font-style: normal;
+// }
